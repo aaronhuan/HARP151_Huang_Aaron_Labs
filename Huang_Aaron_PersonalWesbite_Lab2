@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <body onresize="Function()">
+    <script> 
+    function Function() {alert("WoAh slow down there!");}</script>
+<head> 
+    <meta name="description" content="HTML/CSS demo by Dr. Gibson"> <!--Defines a description of the webpage-->
+    <meta name="keywords" content="Aaron Huang, Binghamton university, personal websites "> <!--Defines keywords for search engines-->
+    <meta name= "author" content="Aaron Huang"> <!-- Defines the author of a page-->
+    <title>Aaron-Huang-Personal-Webite </title> <!-- shows in the tab-->
+</head>
+<style> 
+.Div-ele {
+    border: 6px outset olivedrab;
+    background-color: antiquewhite;
+    text-align: center;
+ }
+</style>
+    <body>
+        <h1> Aaron Huang's personal website! </h1>
+        <p> I am a freshmen at Binghamton University! </p>
+        <div class= "Div-ele"> 
+            <h4> Here is a breif synopsis of who I am: </h4>
+        </div>
+        
+            <table> 
+                <tr> 
+                    <td> <img src="Binghamton_University_img.jpeg" width="200" height="140" alt="Picture of Binghamton University Campus"> </td> <td> <img src="major-picture.jpeg" width="200" height="140" alt="picture of fingers typing with biostatical stuff around it"> </td>
+                </tr>
+                <tr> 
+                    <td>I'm a Freshmen at <b> Binghamton University</b> </td> <td> Majoring in Bio but with interest in CS </td>
+                </tr>
+            </table>
+        <br> 
+        <p> Heres some links to applications I use: </p>
+        <p>Check out my Good Reads Account: <a href="https://www.goodreads.com/user/show/151012776-aaron-huang"> Profile</a> </p>
+        <p>Attached is a copy of my resume: </p> 
+        <iframe src="https://docs.google.com/document/d/1I-hSrHd3EhV0_PTPdn4jLNz3JLAlfWnK/edit?usp=sharing&ouid=116208380335376811235&rtpof=true&sd=true" height="300" width = "500"></iframe>
+        <br> 
+        <p> please put you're information below if you would like to be contacted:  </p>
+        <p> email <input type="text"> </p>
+        <p>phone number <input type="text" value="###-###-####"> </p>
+        <p> mail <input type="text"> </p> 
+    </body>
+
+</html>
+<!-- Attained help from W3 schools on the body onresize, script, and style attributes -->
