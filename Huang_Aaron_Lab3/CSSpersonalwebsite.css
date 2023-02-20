@@ -1,0 +1,51 @@
+ div#center-ele{ /* Local ID that designs the Title*/
+    border: 6px outset olivedrab;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+h1 { /* creates shadow/highlight on words*/ /*global styling because every h1 will have this styling*/
+    color: whitesmoke;
+    text-shadow: 6px 3px 2px black, 0 0 20px green, 0 0 10px lightseagreen;
+}
+
+div.img-surrounding-box{  /*local class styling*/
+    border-radius: 15px; /* border corner smoother from w3schools*/
+    position: relative; 
+    padding: 20px; 
+    border: 6px solid olivedrab;
+    margin: 20px 20px 0px 20px;
+}
+
+
+div.img-sub{ /*local class styling*/
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 20px 5px 20px;
+    border: dashed 2px black;
+}
+
+
+
+
+div.liststart{/*local class styling*/
+    background-color: #a7c2cc;
+    color: #504b43
+
+}
+
+div.text-surrounding{ /*local class styling*/
+    background-color: #d6f49d 
+}
+
+body{ /*local class styling*/
+    background-color: darkseagreen;
+}
+
+div#borderimg { /* from w3 schools border-image */ /*local ID styling*/
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: url(images.jpeg) 14 stretch;
+}
