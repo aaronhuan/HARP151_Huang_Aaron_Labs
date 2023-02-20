@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <body onresize="Function()">
+    <script> 
+    function Function() {alert("WoAh slow down there!");}</script>
+<head> 
+    <meta name="description" content="HTML/CSS demo by Dr. Gibson"> <!--Defines a description of the webpage-->
+    <meta name="keywords" content="Aaron Huang, Binghamton university, personal websites "> <!--Defines keywords for search engines-->
+    <meta name= "author" content="Aaron Huang"> <!-- Defines the author of a page-->
+    <link rel="stylesheet" type ="text/css" href="CSS_pwebsite"/> 
+    <title>Aaron-Huang-Personal-Webite </title> <!-- shows in the tab-->
+    <link rel="stylesheet" type="text/css" href="CSSpersonalwebsite.css"/> <!-- links css page-->
+</head>
+    <body> <div id="borderimg">
+        <div id= "center-ele"> 
+        <h1> Aaron Huang's Personal Website! </h1>
+        </div>
+        
+        <div class ="liststart">
+            <h4> Here is a breif synopsis of who I am: </h4>
+        </div>
+            <table> 
+                <tr> 
+                    <td> 
+                        <div class="img-surrounding-box"> 
+                            <img src="Binghamton_University_img.jpeg" width="200" height="140" alt="Picture of Binghamton University Campus"> </td> 
+                        </div>
+                    <td>
+                        <div class="img-surrounding-box"> 
+                        <img src="major-picture.jpeg" width="200" height="140" alt="picture of fingers typing with biostatical stuff around it"> 
+                        </div>
+                    </td>
+                </tr> 
+
+                <tr> 
+                    <td>
+                        <div class="img-sub"> 
+                        <I'm a Freshmen at <b> Binghamton University</b> 
+                        </div>
+                    </td>
+                        
+                    <td>
+                        <div class="img-sub"> 
+                         Majoring in Bio but with interest in CS
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        <br> 
+        <div class ="liststart">
+            <p>Here's some links to applications I use: </p>
+        </div>
+        <p>Check out my Good Reads Account: <a href="https://www.goodreads.com/user/show/151012776-aaron-huang"> Profile</a> </p>
+        <p>Attached is a copy of my resume: </p>   
+        <iframe src="https://docs.google.com/document/d/1I-hSrHd3EhV0_PTPdn4jLNz3JLAlfWnK/edit?usp=sharing&ouid=116208380335376811235&rtpof=true&sd=true" height="200" width = "300"></iframe>
+        <br> 
+            <div class ="liststart">
+         <p> Please put you're information below if you would like to be contacted:  </p>
+        </div>
+
+        <div class= "text-surrounding"> 
+        <p> email <input type="text"> </p>
+        <p>phone number <input type="text" value="###-###-####"> </p>
+        <p> mail <input type="text"> </p> 
+        </div>
+    </body> </div>
+
+</html>
+<!-- Attained help from W3 schools on the body onresize, script, and style attributes -->
